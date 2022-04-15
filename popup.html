@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="./pic.png" id="pic">
+    <form id="Password Length">Password Criteria:
+        <p><b>Enter the desired password length: </b></p>
+        <input type='text' id = 'length' placeholder="example: 8" required>
+    </form>
+    <form>
+        <p><b>Choose the password requirements:</b></p>
+        <input type="checkbox" id="capital" name="capital" value="capital">
+        <label for="criteria1"> Capital Letters</label><br>
+        <input type="checkbox" id="numbers" name="numbers" value="numbers">
+        <label for="criteria2"> Numbers </label><br>
+        <input type="checkbox" id="special" name="special" value="special">
+        <label for="criteria3"> Special Characters </label><br><br>
+        <input type="submit" id = "generate" value="Generate Password">
+    </form>
+    <script src="ourActionScript.js"></script>
+    <script src="manifest.json"></script>
+</body>
+</html>
