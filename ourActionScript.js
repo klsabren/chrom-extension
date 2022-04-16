@@ -1,4 +1,4 @@
-// create functionality here
+// 
 
 
 // create flags for the check boxes 
@@ -55,12 +55,12 @@ specialCheck.addEventListener('change', function() {
 });
 
 function generatePW(length) {
-    // edge cases for when user input less than 6 or input nothing
+    // edge cases for when user input less than 10 or input nothing
     if (length === undefined) {
         return "Please input the lenght of password desired!"
 
-    } else if (length < 6) {
-        return "Please input the lenght to be greater than 6 for a stronger password security!"
+    } else if (length < 10) {
+        return "Please input the length to be greater than 10 for a stronger password security!"
     }
 
     const output = [];
