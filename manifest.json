@@ -3,7 +3,7 @@
     "description": "Generates a random password based on user-specified criteria.",
     "version": "1.0",
     "manifest_version": 3,
-    "action" : {
+    "action": {
         "default_popup": "popup.html"
     }
 }
